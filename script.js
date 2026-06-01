@@ -22,7 +22,8 @@ function generateGallery() {
         const daysSinceMoment = calculateDaysBetween(memory.date, new Date().toISOString().split('T')[0]);
         
         const galleryItem = document.createElement('div');
-        galleryItem.className = 'gallery-item';
+        const isLast = index === CONFIG.memories.length - 1;
+        galleryItem.className = isLast ? 'gallery-item final-memory' : 'gallery-item';
         galleryItem.style.animationDelay = `${index * 0.1}s`;
         
         galleryItem.innerHTML = `
