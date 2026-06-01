@@ -66,16 +66,18 @@ header {
 }
 
 .title {
-    font-size: 2.5rem;
-    color: var(--deep-blue);
-    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-shadow:
+        0 0 10px #7dd3fc,
+        0 0 20px #60a5fa,
+        0 0 30px #3b82f6;
     letter-spacing: 2px;
     animation: bounce 2s ease-in-out infinite;
 }
 
 .subtitle {
     font-size: 1.2rem;
-    color: var(--secondary-green);
+    color: var(--secondary-white);
     font-style: italic;
 }
 
