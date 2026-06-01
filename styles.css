@@ -1,15 +1,13 @@
 :root {
-    /* Stardew Valley inspired color palette */
-    --primary-green: #A4D65E;
-    --secondary-green: #86C336;
-    --dark-green: #3B5623;
-    --sky-blue: #87CEEB;
-    --soft-yellow: #FFE5B4;
-    --pink-accent: #FF6B9D;
-    --cream-bg: #FFF8E7;
-    --text-dark: #2C2C2C;
+    --primary-blue: #5DADE2;
+    --secondary-blue: #3498DB;
+    --deep-blue: #1B4F72;
+    --sky-blue: #D6EAF8;
+    --ocean-blue: #AED6F1;
+    --moon-blue: #EBF5FB;
+    --accent-pink: #F5B7B1;
+    --text-dark: #2C3E50;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +16,7 @@
 
 body {
     font-family: 'Arial', 'Helvetica', sans-serif;
-    background: linear-gradient(135deg, var(--sky-blue) 0%, var(--cream-bg) 50%, var(--soft-yellow) 100%);
+    background: linear-gradient(180deg, #0f172a 0%, #1e3a5f 35%, #2b5876 70%, #4e7fa5 100%);
     color: var(--text-dark);
     overflow-x: hidden;
     min-height: 100vh;
