@@ -41,7 +41,7 @@ const CONFIG = {
         },
         {
             image: 'https://www.imgfox.cn/apis/uploads/20260601/08311760cd7341bf/933ecf1d03569601cb646b2855564a58.jpg',
-            title: '第一次一次看电影',
+            title: '第一次一起看电影',
             date: '2025-12-24'
         },
         {
