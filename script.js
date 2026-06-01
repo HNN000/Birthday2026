@@ -53,7 +53,7 @@ function isImageUrl(str) {
 
 // Add particle effects on mouse move
 function createParticles(x, y) {
-    const particles = ['✨', '💖', '⭐', '🎀'];
+    const particles = ['✨', '🌊', '⭐', '🌌'];
     const particle = document.createElement('div');
     const randomParticle = particles[Math.floor(Math.random() * particles.length)];
     
