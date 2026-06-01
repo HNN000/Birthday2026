@@ -146,11 +146,13 @@ header {
 }
 
 .counter-card {
-    background: rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.95);
 
-    backdrop-filter: blur(15px);
+    border: 2px solid rgba(147,197,253,0.45);
 
-    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 24px;
+
+    box-shadow: 0 12px 28px rgba(59,130,246,0.13);
 }
 
 .counter-label {
@@ -189,13 +191,17 @@ header {
 }
 
 .gallery-item {
-    background: rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.95);
 
-    backdrop-filter: blur(15px);
-
-    border: 3px solid rgba(255,255,255,0.15);
+    border: 1px solid rgba(147,197,253,0.35);
 
     border-radius: 22px;
+
+    overflow: hidden;
+
+    box-shadow: 0 10px 25px rgba(59,130,246,0.12);
+
+    transition: all 0.3s ease;
 }
 
 .gallery-item:hover {
