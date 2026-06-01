@@ -15,7 +15,8 @@
 }
 
 body {
-    font-family: 'Arial', 'Helvetica', sans-serif;
+    body {
+    font-family: 'ZCOOL KuaiLe', sans-serif;
     background: linear-gradient(180deg, #0f172a 0%, #1e3a5f 35%, #2b5876 70%, #4e7fa5 100%);
     color: var(--text-dark);
     overflow-x: hidden;
@@ -66,7 +67,7 @@ header {
 
 .title {
     font-size: 2.5rem;
-    color: var(--primary-green);
+    color: var(--deep-blue);
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
     letter-spacing: 2px;
     animation: bounce 2s ease-in-out infinite;
@@ -88,7 +89,7 @@ header {
 .pixel-char-right {
     width: 40px;
     height: 40px;
-    background-color: var(--primary-green);
+    background-color: var(--deep-blue);
     position: relative;
     animation: walk 1s steps(4) infinite;
 }
@@ -99,7 +100,7 @@ header {
 .pixel-char-right::after {
     content: '';
     position: absolute;
-    background-color: var(--primary-green);
+    background-color: var(--deep-blue);
 }
 
 .pixel-char::before {
@@ -114,7 +115,7 @@ header {
     width: 100%;
     height: 2px;
     bottom: -10px;
-    background-color: var(--primary-green);
+    background-color: var(--deep-blue);
 }
 
 .pixel-char-right {
@@ -138,7 +139,7 @@ header {
 
 .counter-card {
     background: rgba(255, 255, 255, 0.9);
-    border: 4px solid var(--primary-green);
+    border: 4px solid var(--deep-blue);
     border-radius: 15px;
     padding: 30px 40px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -148,7 +149,7 @@ header {
 
 .counter-label {
     font-size: 1rem;
-    color: var(--secondary-green);
+    color: var(--secondary-blue);
     margin: 5px 0;
     font-weight: bold;
 }
@@ -156,7 +157,7 @@ header {
 .counter-value {
     font-size: 3rem;
     font-weight: bold;
-    background: linear-gradient(135deg, var(--primary-green), var(--pink-accent));
+    background: linear-gradient(135deg, var(--deep-blue), var(--ocean-blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -181,7 +182,7 @@ header {
 .section-title {
     text-align: center;
     font-size: 2rem;
-    color: var(--primary-green);
+    color: var(--deep-blue);
     margin-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
 }
@@ -238,7 +239,7 @@ header {
 
 .gallery-item-days {
     font-size: 0.9rem;
-    color: var(--secondary-green);
+    color: var(--secondary-blue);
     display: flex;
     align-items: center;
     gap: 5px;
