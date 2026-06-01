@@ -52,7 +52,7 @@ const CONFIG = {
         {
             image: 'https://www.imgfox.cn/apis/uploads/20260601/3143e205842c4c53/06d44f5df465b1129d042cae3003ca62.jpg',
             title: '更多星露谷',
-            date: '2025 & 2026'
+            date: '2025-12-31'
         },
         {
             image: 'https://www.imgfox.cn/apis/uploads/20260601/5a460149d03b4d90/11ddf55d4a49480cb70904f61d972046.jpg',
