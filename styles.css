@@ -1,15 +1,12 @@
 :root {
-    --bg-1: #f8fbff;
-    --bg-2: #e0f2fe;
-    --bg-3: #dbeafe;
+    --blue-main: #93c5fd;
+    --blue-soft: #bfdbfe;
+    --blue-deep: #ffffff;
 
-    --blue-main: #3b82f6;
-    --blue-soft: #93c5fd;
-    --blue-deep: #1e3a8a;
+    --card-white: rgba(255,255,255,0.12);
 
-    --card-white: rgba(255, 255, 255, 0.88);
-    --text-main: #1e3a5f;
-    --text-soft: #5b7fa6;
+    --text-main: #ffffff;
+    --text-soft: #dbeafe;
 
     --pink-soft: #f9a8d4;
 }
@@ -22,8 +19,17 @@
 
 body {
     font-family: "Noto Serif SC", "Microsoft YaHei", serif;
-    background: linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 45%, var(--bg-3) 100%);
-    color: var(--text-main);
+
+    background:
+        linear-gradient(
+            180deg,
+            #081120 0%,
+            #102a43 30%,
+            #1b4965 65%,
+            #3b82a6 100%
+        );
+
+    color: white;
     overflow-x: hidden;
     min-height: 100vh;
     padding: 20px;
@@ -140,13 +146,11 @@ header {
 }
 
 .counter-card {
-    background: var(--card-white);
-    border: 2px solid rgba(147, 197, 253, 0.55);
-    border-radius: 24px;
-    padding: 32px 48px;
-    text-align: center;
-    box-shadow: 0 12px 28px rgba(59, 130, 246, 0.13);
-    animation: popIn 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background: rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255,255,255,0.15);
 }
 
 .counter-label {
@@ -185,13 +189,13 @@ header {
 }
 
 .gallery-item {
-    background: var(--card-white);
-    border: 1px solid rgba(147, 197, 253, 0.45);
+    background: rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255,255,255,0.15);
+
     border-radius: 22px;
-    overflow: hidden;
-    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.12);
-    transition: all 0.3s ease;
-    animation: slideIn 0.5s ease-out;
 }
 
 .gallery-item:hover {
